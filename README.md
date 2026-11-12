@@ -1,0 +1,1 @@
+# LATIKA_2026_smkn2tglk.com
