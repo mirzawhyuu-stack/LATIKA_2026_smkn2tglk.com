@@ -1,23 +1,4 @@
-/* ==========================================================
-   INFO KEGIATAN SEKOLAH - script.js
-   Daftar isi:
-   1. Data awal
-   2. Penyimpanan (localStorage)
-   3. State aplikasi
-   4. Fungsi bantu
-   5. Kerangka halaman & sidebar
-   6. Login & logout
-   7. Komponen kartu
-   8. Halaman: Beranda
-   9. Halaman: Kegiatan
-   10. Halaman: Ekstrakurikuler
-   11. Halaman: Kelola Informasi (admin & guru)
-   12. Halaman: Pengguna (admin)
-   ========================================================== */
-
-
 /* ---------- 1. Data awal ---------- */
-
 // Organisasi & ekstrakurikuler (n: nama, d: deskripsi, j: jadwal, p: pembina)
 const ORGS = [
   { n: "OSIS",         d: "Organisasi Siswa Intra Sekolah, wadah aspirasi dan kepemimpinan siswa.", j: "Senin, 14.00",  p: "Bu Rina" },
@@ -218,12 +199,6 @@ function loginView() {
         <p id="le" style="color:var(--dg);min-height:1.2em;font-size:.85rem"></p>
         <button class="btn" style="width:100%" onclick="login()">Masuk</button>
 
-        <div class="demo">
-          <b>Akun demo</b> (klik untuk mengisi):<br>
-          Admin: <code onclick="fill('admin','admin123')">admin / admin123</code><br>
-          Guru: <code onclick="fill('guru','guru123')">guru / guru123</code><br>
-          Siswa: <code onclick="fill('siswa','siswa123')">siswa / siswa123</code>
-        </div>
       </div>
     </div>`;
 }
